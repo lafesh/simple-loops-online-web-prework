@@ -5,7 +5,7 @@ def loop_iterator(number_of_times)
   loop do
     counter = counter + 1
     puts "Welcome to Flatiron School's Web Development Course!"
-    break if number_of_times
+    if counter break if number_of_times
   end
 end
 
